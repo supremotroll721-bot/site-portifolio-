@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Construtora Prime Engenharia</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#f5f5f5;
+}
+
+header{
+background:#0a2a66;
+color:white;
+padding:25px;
+text-align:center;
+}
+
+nav{
+background:#111;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:20px;
+text-decoration:none;
+font-size:18px;
+}
+
+.hero{
+background:url("https://images.unsplash.com/photo-1503387762-592deb58ef4e");
+background-size:cover;
+color:white;
+padding:120px;
+text-align:center;
+}
+
+.hero h1{
+font-size:50px;
+}
+
+section{
+padding:50px;
+}
+
+.servicos{
+display:flex;
+flex-wrap:wrap;
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+width:250px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.galeria img{
+width:300px;
+border-radius:10px;
+margin:10px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+font-weight:bold;
+text-decoration:none;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>Prime Engenharia Civil</h2>
+<p>Projetos • Construção • Estruturas</p>
+</header>
+
+<nav>
+<a href="#">Início</a>
+<a href="#">Serviços</a>
+<a href="#">Projetos</a>
+<a href="#">Contato</a>
+</nav>
+
+<div class="hero">
+<h1>Construindo o futuro</h1>
+<p>Engenharia civil com qualidade e segurança</p>
+</div>
+
+<section>
+
+<h2>Sobre a Empresa</h2>
+
+<p>
+Somos especialistas em engenharia civil, realizando projetos estruturais,
+construção de residências, prédios e gerenciamento de obras.
+</p>
+
+</section>
+
+<section>
+
+<h2>Nossos Serviços</h2>
+
+<div class="servicos">
+
+<div class="card">
+<h3>Projetos Estruturais</h3>
+<p>Cálculo estrutural e planejamento de obras.</p>
+</div>
+
+<div class="card">
+<h3>Construção</h3>
+<p>Execução de obras residenciais e comerciais.</p>
+</div>
+
+<div class="card">
+<h3>Gerenciamento</h3>
+<p>Controle e acompanhamento de obras.</p>
+</div>
+
+<div class="card">
+<h3>Consultoria</h3>
+<p>Assessoria técnica especializada.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Projetos Realizados</h2>
+
+<div class="galeria">
+
+<img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e">
+
+<img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab">
+
+<img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231">
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Contato</h2>
+
+<p>Email: contato@primeengenharia.com</p>
+<p>Telefone: (00) 00000-0000</p>
+
+</section>
+
+<a class="whatsapp" href="https://wa.me/5500000000000">
+WhatsApp
+</a>
+
+<footer>
+
+<p>© 2026 Prime Engenharia Civil</p>
+
+</footer>
+
+</body>
+</html>
